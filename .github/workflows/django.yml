@@ -47,5 +47,5 @@ jobs:
     - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
       with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "Decide_hegoa_egc_practica"
+          heroku_app_name: "decide-hegoa-egc-practica"
           heroku_email: "hegoaria@gmail.com"
